@@ -3,7 +3,7 @@
 	"description": "Write current line index at the start of the current line",
 	"version": "0.0.1",
 	"publisher": "fpopa",
-	"repository": "",
+	"repository": "https://github.com/fpopa/get-line",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
