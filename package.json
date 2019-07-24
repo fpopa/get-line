@@ -1,0 +1,34 @@
+{
+	"name": "get-line",
+	"description": "Write current line index at the start of the current line",
+	"version": "0.0.1",
+	"publisher": "fpopa",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:fpopa.getLine"
+	],
+	"main": "./getLine.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "fpopa.getLine",
+				"title": "Get Line"
+			}
+		],
+		"keybindings": [
+			{
+				"mac": "cmd+g+cmd+l",
+				"key": "ctrl+g+ctrl+l",
+				"command": "fpopa.getLine",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.32.0"
+	}
+}
